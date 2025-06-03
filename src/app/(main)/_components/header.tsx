@@ -6,14 +6,12 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center p-4 shadow-sm">
+    <header className="sticky top-0 bg-white flex justify-between items-center p-4 shadow-sm">
       <Link href="/">
         <h1 className="md:text-2xl font-bold">Task Manager</h1>
       </Link>
